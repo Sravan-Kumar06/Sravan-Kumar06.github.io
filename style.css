@@ -1,0 +1,178 @@
+/* ===============================
+   Global Reset & Base Styles
+=================================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #eef2f3, #ffffff);
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* ===============================
+   Header Section
+=================================*/
+header {
+  text-align: center;
+  padding: 50px 20px 30px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  max-width: 900px;
+  margin: 0 auto 40px;
+}
+
+header h1 {
+  font-size: 2.8em;
+  color: #1e1e1e;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* ===============================
+   Section Styles
+=================================*/
+section {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  padding: 40px;
+  margin: 20px auto;
+  max-width: 900px;
+  text-align: left;
+}
+
+/* ===============================
+   Profile Image
+=================================*/
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* ===============================
+   Resume Button
+=================================*/
+.button {
+  display: inline-block;
+  background-color: #007acc;
+  color: white;
+  padding: 10px 20px;
+  margin: 15px 0;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #005f99;
+}
+
+/* ===============================
+   Headings
+=================================*/
+h2 {
+  font-size: 1.8em;
+  color: #007acc;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #007acc;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+h3 {
+  margin-top: 15px;
+  color: #007acc;
+}
+
+/* ===============================
+   List and Projects
+=================================*/
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.project {
+  margin-bottom: 30px;
+  padding: 15px 20px;
+  border-left: 4px solid #007acc;
+  background-color: #f9fbfd;
+  border-radius: 6px;
+}
+
+.project a {
+  display: inline-block;
+  margin-top: 8px;
+  color: #007acc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+/* ===============================
+   Contact Links
+=================================*/
+.contact-links {
+  margin-top: 20px;
+}
+
+.contact-links a {
+  color: #007acc;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.contact-links a:hover {
+  text-decoration: underline;
+}
+
+/* ===============================
+   Responsive Design
+=================================*/
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 2em;
+  }
+
+  header p {
+    font-size: 1em;
+  }
+
+  section {
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+}
+
+
